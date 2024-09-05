@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.main img {
+  height: 400px;
+}
+#buttons-wrapper{
+  padding: 25px;
+}
+#buttons-wrapper button {
+  width: 75px;
+  height: 30px;
+  margin-right: 10px;
+
+}
+.timeline{
+  display: flex;
+  align-items: center;
+  height: 110px;
+}
+.timelineImg{
+  width: 100px;
+  height: 100px;
+}
+.active{
+  transition: 0.3s;
+  height: 110px;
+  border: 2px solid white;
+}
+
+
